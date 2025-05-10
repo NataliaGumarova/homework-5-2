@@ -3,8 +3,8 @@ public class Task4 {
         double[] mass = {1.3, 4.0, 15.3, 43.0, 7.4};
         boolean unique = true;
         two: for (int i = 0; i < mass.length; i++){
-            for (int j = 0; j < mass.length; j++) {
-                if (mass[i] == mass[j] && i != j) {
+            for (int j = i + 1; j < mass.length; j++) {
+                if (mass[i] == mass[j]) {
                     unique = false;
                     break two;
                 }
