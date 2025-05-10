@@ -21,7 +21,7 @@ public class Task8 {
                     continue two;
                 }
             }
-            if (a >= 3) {
+            if (a > 3) {
                 System.out.println(mass[i]);
                 a = 0;
             } else {
