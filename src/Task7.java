@@ -24,4 +24,5 @@ public class Task7 {
             a = 1;
         }
     }
+
 }
